@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "timeloop",
+  "version": "1.0.0",
+  "name": "Time Loop Clones",
+  "description": "Un mod ou votre vous du passe reaparait chaque minute !",
+  "authors": ["Toi"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.timeloop.TimeLoopMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
